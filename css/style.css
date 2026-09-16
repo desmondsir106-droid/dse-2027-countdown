@@ -284,7 +284,7 @@ main,
   position: relative;
   z-index: 1;
   margin-top: 0.9rem;
-  color: rgba(255, 250, 241, 0.58);
+  color: rgba(255, 250, 241, 0.78);
   font-size: 0.82rem;
   letter-spacing: 0.18em;
 }
@@ -374,6 +374,7 @@ main,
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 1.35;
+  text-wrap: pretty;
 }
 
 .card-sub {
