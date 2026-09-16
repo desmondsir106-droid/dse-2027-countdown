@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#F4EFE4" />
+    <meta
+      name="description"
+      content="2027 年香港中學文憑考試（HKDSE）倒數。以中國語文為焦點，並列出考評局已確認日期的筆試科目。"
+    />
+    <meta property="og:title" content="2027 DSE 考試倒數" />
+    <meta
+      property="og:description"
+      content="中國語文卷一及卷二：2027年4月8日上午 8 時 30 分（香港時間）。"
+    />
+    <meta property="og:locale" content="zh_HK" />
+    <title>2027 DSE 考試倒數</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳至內容</a>
+
+    <div class="page-bg" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <p class="brand">
+          <span class="brand-mark" aria-hidden="true">HK</span>
+          <span class="brand-text">2027 DSE 考試倒數</span>
+        </p>
+        <p class="hk-clock" aria-live="off">
+          <span class="hk-clock-label">香港時間</span>
+          <time id="hk-clock" datetime="">--:--:--</time>
+        </p>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <article class="hero-book" data-subject-id="chi-lang">
+          <p class="hero-kicker">
+            <span class="seal">核心科目</span>
+            <span class="hero-when" id="hero-when"
+              >2027年4月8日（星期四）</span
+            >
+          </p>
+          <h1 id="hero-title" class="hero-title">中國語文</h1>
+          <p class="hero-sub" id="hero-sub">卷一及卷二 · 上午 8 時 30 分開考</p>
+
+          <div
+            class="countdown hero-countdown"
+            data-countdown="chi-lang"
+            role="timer"
+            aria-live="off"
+            aria-label="距離中國語文開考"
+          >
+            <div class="unit">
+              <span class="unit-value js-days">--</span>
+              <span class="unit-label">天</span>
+            </div>
+            <div class="unit">
+              <span class="unit-value js-hours">--</span>
+              <span class="unit-label">時</span>
+            </div>
+            <div class="unit">
+              <span class="unit-value js-minutes">--</span>
+              <span class="unit-label">分</span>
+            </div>
+            <div class="unit">
+              <span class="unit-value js-seconds">--</span>
+              <span class="unit-label">秒</span>
+            </div>
+          </div>
+
+          <p class="hero-caption js-live-caption">距離開考</p>
+
+          <div class="done-state" hidden>
+            <p class="done-label">已考完</p>
+            <p class="done-note">這一科已經開考。沉住氣，繼續下一份卷。</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="subjects" aria-labelledby="subjects-title">
+        <div class="section-heading">
+          <h2 id="subjects-title">其他已確認筆試</h2>
+          <p class="section-note">
+            只列出考評局已公布確定日期的科目；未落實科目不會顯示。
+          </p>
+        </div>
+        <div id="subject-grid" class="subject-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        數據來自 HKEAA 2027 考試時間表；AM 以 08:30 香港時間計算
+      </p>
+    </footer>
+
+    <noscript>
+      <p class="noscript">
+        請開啟 JavaScript 以顯示即時倒數。中國語文開考時間：2027年4月8日上午 8
+        時 30 分（香港時間）。
+      </p>
+    </noscript>
+
+    <script src="js/config.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
